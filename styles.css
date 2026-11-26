@@ -232,6 +232,9 @@ button { color: inherit; }
 .back-top:hover { background: rgba(232,190,120,.1); }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); }
 .footer-bottom-inner { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: rgba(255,255,255,.42); font-size: 9px; }
+.developer-credit { color: rgba(255,255,255,.55); white-space: nowrap; }
+.developer-credit a { color: #e7bd70; text-decoration: none; font-weight: 700; transition: color .2s ease; }
+.developer-credit a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 
 html[lang="en"] body { font-family: var(--sans); }
 html[lang="en"] body, html[lang="en"] button, html[lang="en"] a { font-family: var(--sans); }
